@@ -20,7 +20,7 @@ Routes yang tersedia : <br>
 Instalasi : <br>
 <ul>
     <li>import db_klink.sql pada DBMS MySQL di folder db</li>
-    <li>npm instal</li>
+    <li>npm install</li>
     <li>npm start</li>
     <li>http://localhost:3000/getProduct (example)</li>
 </ul>
