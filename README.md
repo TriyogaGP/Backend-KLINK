@@ -1,8 +1,8 @@
 # Backend-KLINK
 
 # Penjelasan #
-Routes yang tersedia :
-=> Product
-    - Add/Update Product (/restApi/moduleProduct/createProduct - POST)
-    - Read Product (/restApi/moduleProduct/getProduct - GET)
-    - Delete Product (/restApi/moduleProduct/deleteProduct - DELETE)
+Routes yang tersedia : <br>
+=> Product <br>
+    - Add/Update Product (/restApi/moduleProduct/createProduct - POST) <br>
+    - Read Product (/restApi/moduleProduct/getProduct - GET) <br>
+    - Delete Product (/restApi/moduleProduct/deleteProduct - DELETE) <br>
