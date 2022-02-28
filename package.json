@@ -1,0 +1,49 @@
+{
+  "name": "backend-triyogagp",
+  "version": "1.0.0",
+  "description": "Untuk tes di K-Link",
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Redis",
+    "Shopping Cart",
+    "json_get",
+    "json_set"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TriyogaGP/Backend-KLINK.git"
+  },
+  "author": "Triyoga Ginanjar Pamungkas",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "connect-redis": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http-status-codes": "^2.1.4",
+    "http-errors": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "redis": "^3.0.2",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "bugs": {
+    "url": "https://github.com/TriyogaGP/Backend-KLINK/issues"
+  },
+  "homepage": "https://github.com/TriyogaGP/Backend-KLINK#readme"
+}
