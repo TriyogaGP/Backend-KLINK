@@ -4,20 +4,16 @@
 Routes yang tersedia : <br>
 <ul>
     <li> Product 
-        <ol>
-            <li> Add/Update Product (/restApi/moduleProduct/createProduct - POST) </li>
-            <li> Read Product (/restApi/moduleProduct/getProduct - GET) </li>
-            <li> Delete Product (/restApi/moduleProduct/deleteProduct/:product_id - DELETE) </li>
-        <ol>
+        <ol> Add/Update Product (/restApi/moduleProduct/createProduct - POST) </ol>
+        <ol> Read Product (/restApi/moduleProduct/getProduct - GET) </ol>
+        <ol> Delete Product (/restApi/moduleProduct/deleteProduct/:product_id - DELETE) </ol>
     </li>
     <li> Cart 
-        <ol>
-            <li> Read Cart By User ID (/restApi/moduleCart/getCartBy/:user_id - GET) </li>
-            <li> Add Cart (/restApi/moduleCart/addCart - POST) </li>
-            <li> Checkout (/restApi/moduleCart/checkoutCart - POST) </li>
-            <li> Payment (/restApi/moduleCart/payment/:user_id - POST) </li>
-            <li> Delete Cart (/restApi/moduleCart/deleteCart/:cart_id - Delete) </li>
-        <ol>
+        <ol> Read Cart By User ID (/restApi/moduleCart/getCartBy/:user_id - GET) </ol>
+        <ol> Add Cart (/restApi/moduleCart/addCart - POST) </ol>
+        <ol> Checkout (/restApi/moduleCart/checkoutCart - POST) </ol>
+        <ol> Payment (/restApi/moduleCart/payment/:user_id - POST) </ol>
+        <ol> Delete Cart (/restApi/moduleCart/deleteCart/:cart_id - Delete) </ol>
     </li>
 </ul>
 
