@@ -7,7 +7,7 @@ Routes yang tersedia : <br>
         <ol>
             <li> Add/Update Product (/restApi/moduleProduct/createProduct - POST) </li>
             <li> Read Product (/restApi/moduleProduct/getProduct - GET) </li>
-            <li> Delete Product (/restApi/moduleProduct/deleteProduct - DELETE) </li>
+            <li> Delete Product (/restApi/moduleProduct/deleteProduct/:product_id - DELETE) </li>
         <ol>
     </li>
     <li> Cart 
@@ -30,10 +30,11 @@ Instalasi : <br>
 </ul>
 
 Kebutuhan Body ketika POST data: <br>
-1. Add Product <br> 
-    { <br>
-        product_id: null,<br>
-        product_name: "nama product",<br>
-        product_price: "harga product",<br>
-        product_stock: "stok product"<br>
-    }<br>
+1. Add Product <br>
+    (product_id: null, product_name: "nama product", product_price: "harga product", product_stock: "stok product") <br>
+2. Update Product <br>
+    (product_id: "id product", product_name: "nama product", product_price: "harga product", product_stock: "stok product") <br>
+3. Add to Cart <br>
+    (product_id: "id product", user_id: "id user", product_request: "jumlah permintaan") <br>
+4. Checkout <br>
+    (user_id: "id user")
